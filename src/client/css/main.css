@@ -1,0 +1,564 @@
+* {
+    font-family: 'Ubuntu';
+    /* font-size: 14px; */
+}
+
+html { overflow-y: scroll; }
+body { position: absolute; }
+
+h1, h2, h3, h4, p {
+    color: white;
+}
+
+html, body {
+    background-color: #222;
+    /* overflow: hidden; */
+}
+
+html, body, canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Hide scrollbar for IE and Edge */
+.hideoverflow {
+    -ms-overflow-style: none;
+}
+.hideoverflow::-webkit-scrollbar {
+    display: none;
+}
+  
+
+div {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+centre {
+    display: block;
+    text-align: -webkit-center;
+}
+
+#status {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    font-size: 16.1px;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#status .title {
+    font-size: 25px;
+}
+
+#status .me {
+    color: #FF8888;
+    font-size: 16.1px;
+}
+
+.chatbox {
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.7);
+    bottom: 5px;
+    left: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.chatbox .chat-list {
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    height: 285px;
+    /* overflow: hidden; */
+}
+
+.chatbox .chat-list li {
+    padding: 2px;
+    margin: 3px;
+}
+
+.chatbox .chat-list li.me b {
+    color: #ea6153;
+}
+
+.chatbox .chat-list li.friend b {
+    color: #2ecc71;
+}
+
+.chatbox .chat-list li.system {
+    color: #9b59b6;
+    font-style: italic;
+}
+
+.chatbox .chat-list li.system:before {
+    content: "» ";
+}
+
+.chatbox .chat-input {
+    pointer-events: all;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    border-top: 1px solid #DDD;
+    outline: none;
+}
+
+#container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#startMenuWrapper, #queueWrapper, #gameOverWrapper {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#startMenu, #queue, #gameOver {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    /* width: 50%; */
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* background-color: white; */
+    box-sizing: border-box;
+    text-align: -webkit-center;
+    /* height: 100%; */
+}
+
+
+#startMenu p {
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#playerNameInput {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#playerNameInput:focus, #playerNameInput.focus {
+    border: solid 1px #CCCCCC;
+    box-shadow: 0 0 3px 1px #DDDDDD;
+}
+
+.vote {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+.vote p {
+    margin-block-start: 0;
+}
+
+.voteMap {
+    width: 100%;
+    float: left;
+    margin-left: 1%;
+}
+.voteMap p {
+    margin-block-start: 0;
+}
+
+button {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: large;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #2ecc71;
+    border: 0;
+    border-bottom: 2px solid #28be68;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #28be68;
+    box-shadow: inset 0 -2px #28be68;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#spectateButton:active, #spectateButton:hover,
+button:active, button:hover {
+    top: 1px;
+    background: #55D88B;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#settingsButton {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: large;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #2ecc71;
+    border: 0;
+    border-bottom: 2px solid #28be68;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #28be68;
+    box-shadow: inset 0 -2px #28be68;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#settingsButton:active, #settingsButton:hover {
+    top: 1px;
+    background: #55D88B;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#settings, #startMenuWrapper {
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
+    transition: max-height 1s;
+    /* overflow: hidden; */
+}
+
+#settings {
+    max-height: 0;
+}
+
+#startMenu h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#startMenu ul {
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+#startMenu .input-error {
+    color: red;
+    opacity: 0;
+    font-size : 12px;
+}
+
+#startMenuWrapper {
+    z-index: 2;
+}
+
+#gameAreaWrapper {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+@media only screen  and (min-width : 1224px) {
+#mobile {
+display: none;
+	}
+}
+
+@media only screen  and (max-width : 1224px) {
+#chatbox {
+display: none;
+        }
+}
+
+input [type="image"]:focus{
+ border:none;
+ outline: 1px solid transparent;
+ border-style: none;
+}
+
+*:focus {
+ outline: 1px solid transparent;
+ border-style: none;
+}
+
+#homeScreenName {
+    margin-bottom: 20%;
+    text-shadow: -3px 2px #2ecc71;
+}
+
+#leaderboardBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#leaderboard {
+    width: 640px;
+    max-width: 85%;
+    height: 85%;
+    padding: 10px;
+    background: #bbb;
+    /* background: black; */
+    z-index: 50;
+    min-width: 200px;
+    box-shadow: -1px 1px #2ecc71;
+}
+
+.myCenter {
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.center-vertical {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+.center-horizontal {
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
+
+#leaderboardTitle {
+    top: 0;
+    margin: 5px;
+    /* color: #2ecc71 !important; */
+    color: white;
+    /* text-shadow: 1px 1px black; */
+    white-space: nowrap;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#leaderboardContent {
+    background: white;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 51px;
+    overflow: auto;
+    /* background: #222; */
+
+}
+
+#leaderboardExit {
+    bottom: 0;
+    width: 50%;
+    min-width: 100px;
+    margin: 5px;
+    border: 0;
+    border-width: 0 !important;
+    outline: none !important;
+    transition: all .2s ease-in-out;
+    white-space: nowrap;
+    border-radius: 0;
+}
+
+#leaderboardExit:hover {
+    top: auto;
+    bottom: 0;
+    background: #55D88B;
+    /* outline: none; */
+    /* -webkit-box-shadow: none; */
+    /* box-shadow: none; */
+}
+
+button.small {
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+table.list {
+    font-size: 18px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table.list tr {
+    background-color: white;
+}
+
+#leaderboardTable tr.leaderboardEntry {
+    background: #b3ecff;
+}
+
+table.list th {
+    /* font-family: Quicksand-Bold; */
+    border-bottom: 2px solid black;
+    padding: 5px 25px;
+}
+
+table.list td {
+    border: 1px solid #bbb;
+    padding: 5px 8px;
+    overflow: hidden;
+    max-width: 250px;
+}
+
+#leaderboardTable td {
+    max-width: 185px;
+}
+
+#leaderboardTable {
+    top: 40px;
+}
+
+#discordButton {
+    top: 5px;
+    right: 7px;
+    background-image: url(/images/discord-white.png);
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    transition: all .2s ease-in-out;
+    position: absolute;
+}
+
+#discordButton:hover {
+    cursor: pointer;
+    background-image: url(/images/discord-color.png);
+}
+
+#iogamesspace {
+    /* float: left; */
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+#changelog {
+    /* float: left; */
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+}
+
+#swapServer {
+    font-size: 12px;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+}
+
+a {
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+a:hover, a.underline {
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    margin: 5px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* .inline-button {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    background-color: transparent;
+    transition: background-color .2s ease-in-out;
+} */
+
+.mapLeaderboardName {
+    border: 1px solid #292929;
+    padding: 5px 5px;
+    overflow: hidden;
+    /* background: #b3ecff; */
+    font-size: 13px;
+}
+
+.mapLeaderboardName:hover {
+    background: lightgrey;
+}
+
+.selectedMapLBButton {
+    background: darkgrey !important;
+    border: 1px solid #292929;
+    padding: 5px 5px;
+    overflow: hidden;
+    /* background: #b3ecff; */
+    font-size: 13px;
+}
+
+#canvasDiv {
+    overflow: hidden;
+}
+
+/* #cvs {
+    position: fixed;
+} */
+

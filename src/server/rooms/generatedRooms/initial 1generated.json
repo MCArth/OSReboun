@@ -1,0 +1,5788 @@
+{
+    "name": "initial 1",
+    "officialName": "Original Map",
+    "foodRespawnType": "cycle",
+    "rooms": [
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 1,
+            "teleportPortals": [
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 5,
+                    "x": 837,
+                    "y": 149,
+                    "direction": 136
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 407,
+                            "y": 883
+                        },
+                        {
+                            "x": 407,
+                            "y": 946
+                        },
+                        {
+                            "x": 819,
+                            "y": 727
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 1,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 5,
+                    "x": 487,
+                    "y": 271,
+                    "direction": 205
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 5,
+                    "x": 529,
+                    "y": 705,
+                    "direction": 20
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 662,
+                            "y": 900
+                        },
+                        {
+                            "x": 938,
+                            "y": 644
+                        },
+                        {
+                            "x": 845,
+                            "y": 80
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 2,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 5,
+                    "x": 416,
+                    "y": 295,
+                    "direction": 318
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 5,
+                    "x": 531,
+                    "y": 826,
+                    "direction": 21
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 5,
+                    "x": 416,
+                    "y": 69,
+                    "direction": 315
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 791,
+                            "y": 234
+                        },
+                        {
+                            "x": 606,
+                            "y": 69
+                        },
+                        {
+                            "x": 893,
+                            "y": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 557,
+                            "y": 422
+                        },
+                        {
+                            "x": 492,
+                            "y": 666
+                        },
+                        {
+                            "x": 566,
+                            "y": 988
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 2,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 463,
+                    "y": 528,
+                    "direction": 44
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 871,
+                    "y": 747,
+                    "direction": 82
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 4,
+                    "x": 724,
+                    "y": 223,
+                    "direction": 285
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 4,
+                    "x": 821,
+                    "y": 621,
+                    "direction": 308
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 583,
+                            "y": 898
+                        },
+                        {
+                            "x": 664,
+                            "y": 725
+                        },
+                        {
+                            "x": 892,
+                            "y": 258
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 793,
+                            "y": 603
+                        },
+                        {
+                            "x": 627,
+                            "y": 37
+                        },
+                        {
+                            "x": 749,
+                            "y": 480
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 3,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 488,
+                    "y": 703,
+                    "direction": 1
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 651,
+                    "y": 536,
+                    "direction": 72
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 773,
+                    "y": 121,
+                    "direction": 234
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 652,
+                    "y": 429,
+                    "direction": 291
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 782,
+                    "y": 213,
+                    "direction": 230
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 759,
+                            "y": 29
+                        },
+                        {
+                            "x": 680,
+                            "y": 827
+                        },
+                        {
+                            "x": 384,
+                            "y": 953
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 724,
+                            "y": 196
+                        },
+                        {
+                            "x": 817,
+                            "y": 264
+                        },
+                        {
+                            "x": 874,
+                            "y": 559
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 461,
+                            "y": 813
+                        },
+                        {
+                            "x": 833,
+                            "y": 661
+                        },
+                        {
+                            "x": 454,
+                            "y": 884
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 6,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 3,
+                    "x": 589,
+                    "y": 298,
+                    "direction": 332
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 3,
+                    "x": 388,
+                    "y": 83,
+                    "direction": 320
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 3,
+                    "x": 506,
+                    "y": 247,
+                    "direction": 180
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 3,
+                    "x": 503,
+                    "y": 483,
+                    "direction": 143
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 654,
+                    "y": 569,
+                    "direction": 356
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 764,
+                    "y": 624,
+                    "direction": 230
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 454,
+                    "y": 919,
+                    "direction": 293
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 572,
+                            "y": 358
+                        },
+                        {
+                            "x": 741,
+                            "y": 678
+                        },
+                        {
+                            "x": 480,
+                            "y": 837
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 616,
+                            "y": 29
+                        },
+                        {
+                            "x": 580,
+                            "y": 331
+                        },
+                        {
+                            "x": 841,
+                            "y": 876
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 573,
+                            "y": 767
+                        },
+                        {
+                            "x": 746,
+                            "y": 708
+                        },
+                        {
+                            "x": 623,
+                            "y": 810
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 622,
+                            "y": 340
+                        },
+                        {
+                            "x": 397,
+                            "y": 573
+                        },
+                        {
+                            "x": 724,
+                            "y": 675
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 386,
+                            "y": 768
+                        },
+                        {
+                            "x": 565,
+                            "y": 50
+                        },
+                        {
+                            "x": 360,
+                            "y": 909
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 806,
+                            "y": 416
+                        },
+                        {
+                            "x": 839,
+                            "y": 105
+                        },
+                        {
+                            "x": 688,
+                            "y": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 7,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 575,
+                    "y": 679,
+                    "direction": 171
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 454,
+                    "y": 109,
+                    "direction": 150
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 408,
+                    "y": 98,
+                    "direction": 120
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 896,
+                    "y": 331,
+                    "direction": 242
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 714,
+                    "y": 510,
+                    "direction": 54
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 687,
+                    "y": 272,
+                    "direction": 232
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 458,
+                    "y": 151,
+                    "direction": 208
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 878,
+                            "y": 419
+                        },
+                        {
+                            "x": 833,
+                            "y": 86
+                        },
+                        {
+                            "x": 933,
+                            "y": 553
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 819,
+                            "y": 924
+                        },
+                        {
+                            "x": 537,
+                            "y": 766
+                        },
+                        {
+                            "x": 628,
+                            "y": 393
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 628,
+                            "y": 941
+                        },
+                        {
+                            "x": 520,
+                            "y": 256
+                        },
+                        {
+                            "x": 791,
+                            "y": 279
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 375,
+                            "y": 709
+                        },
+                        {
+                            "x": 504,
+                            "y": 642
+                        },
+                        {
+                            "x": 826,
+                            "y": 247
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 830,
+                            "y": 442
+                        },
+                        {
+                            "x": 556,
+                            "y": 55
+                        },
+                        {
+                            "x": 542,
+                            "y": 285
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 774,
+                            "y": 226
+                        },
+                        {
+                            "x": 414,
+                            "y": 345
+                        },
+                        {
+                            "x": 748,
+                            "y": 252
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 741,
+                            "y": 482
+                        },
+                        {
+                            "x": 557,
+                            "y": 940
+                        },
+                        {
+                            "x": 481,
+                            "y": 304
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 8,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 390,
+                    "y": 585,
+                    "direction": 311
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 494,
+                    "y": 523,
+                    "direction": 330
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 661,
+                    "y": 724,
+                    "direction": 160
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 489,
+                    "y": 229,
+                    "direction": 140
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 765,
+                    "y": 134,
+                    "direction": 186
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 431,
+                    "y": 855,
+                    "direction": 266
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 561,
+                    "y": 126,
+                    "direction": 131
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 721,
+                    "y": 748,
+                    "direction": 126
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 651,
+                            "y": 940
+                        },
+                        {
+                            "x": 406,
+                            "y": 932
+                        },
+                        {
+                            "x": 465,
+                            "y": 662
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 691,
+                            "y": 167
+                        },
+                        {
+                            "x": 683,
+                            "y": 853
+                        },
+                        {
+                            "x": 716,
+                            "y": 149
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 641,
+                            "y": 383
+                        },
+                        {
+                            "x": 375,
+                            "y": 175
+                        },
+                        {
+                            "x": 493,
+                            "y": 794
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 492,
+                            "y": 952
+                        },
+                        {
+                            "x": 531,
+                            "y": 932
+                        },
+                        {
+                            "x": 458,
+                            "y": 328
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 892,
+                            "y": 149
+                        },
+                        {
+                            "x": 768,
+                            "y": 813
+                        },
+                        {
+                            "x": 831,
+                            "y": 790
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 678,
+                            "y": 483
+                        },
+                        {
+                            "x": 388,
+                            "y": 943
+                        },
+                        {
+                            "x": 522,
+                            "y": 158
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 800,
+                            "y": 514
+                        },
+                        {
+                            "x": 477,
+                            "y": 92
+                        },
+                        {
+                            "x": 660,
+                            "y": 712
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 920,
+                            "y": 510
+                        },
+                        {
+                            "x": 429,
+                            "y": 234
+                        },
+                        {
+                            "x": 630,
+                            "y": 265
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 15,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1842,
+                    "y": 229,
+                    "direction": 215
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 769,
+                    "y": 787,
+                    "direction": 286
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 475,
+                    "y": 134,
+                    "direction": 174
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1812,
+                    "y": 446,
+                    "direction": 353
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1028,
+                    "y": 756,
+                    "direction": 212
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1516,
+                    "y": 585,
+                    "direction": 269
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1561,
+                    "y": 647,
+                    "direction": 341
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 498,
+                    "y": 316,
+                    "direction": 137
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1755,
+                            "y": 586
+                        },
+                        {
+                            "x": 901,
+                            "y": 638
+                        },
+                        {
+                            "x": 953,
+                            "y": 14
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1075,
+                            "y": 256
+                        },
+                        {
+                            "x": 683,
+                            "y": 169
+                        },
+                        {
+                            "x": 435,
+                            "y": 193
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1864,
+                            "y": 277
+                        },
+                        {
+                            "x": 434,
+                            "y": 832
+                        },
+                        {
+                            "x": 1285,
+                            "y": 272
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1918,
+                            "y": 756
+                        },
+                        {
+                            "x": 548,
+                            "y": 888
+                        },
+                        {
+                            "x": 1092,
+                            "y": 254
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 771,
+                            "y": 939
+                        },
+                        {
+                            "x": 599,
+                            "y": 662
+                        },
+                        {
+                            "x": 1172,
+                            "y": 364
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 822,
+                            "y": 66
+                        },
+                        {
+                            "x": 945,
+                            "y": 542
+                        },
+                        {
+                            "x": 1531,
+                            "y": 488
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1835,
+                            "y": 477
+                        },
+                        {
+                            "x": 892,
+                            "y": 159
+                        },
+                        {
+                            "x": 1848,
+                            "y": 427
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 955,
+                            "y": 931
+                        },
+                        {
+                            "x": 531,
+                            "y": 811
+                        },
+                        {
+                            "x": 1920,
+                            "y": 467
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1163,
+                            "y": 367
+                        },
+                        {
+                            "x": 1424,
+                            "y": 310
+                        },
+                        {
+                            "x": 1129,
+                            "y": 713
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 728,
+                            "y": 861
+                        },
+                        {
+                            "x": 1232,
+                            "y": 403
+                        },
+                        {
+                            "x": 718,
+                            "y": 288
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1932,
+                            "y": 581
+                        },
+                        {
+                            "x": 1352,
+                            "y": 841
+                        },
+                        {
+                            "x": 1298,
+                            "y": 550
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 452,
+                            "y": 70
+                        },
+                        {
+                            "x": 1650,
+                            "y": 940
+                        },
+                        {
+                            "x": 1861,
+                            "y": 400
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 1263,
+                            "y": 120
+                        },
+                        {
+                            "x": 1148,
+                            "y": 835
+                        },
+                        {
+                            "x": 1374,
+                            "y": 448
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 1545,
+                            "y": 760
+                        },
+                        {
+                            "x": 1785,
+                            "y": 65
+                        },
+                        {
+                            "x": 371,
+                            "y": 315
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 390,
+                            "y": 732
+                        },
+                        {
+                            "x": 1730,
+                            "y": 968
+                        },
+                        {
+                            "x": 1213,
+                            "y": 628
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 17,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 1206,
+                    "y": 236,
+                    "direction": 89
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 661,
+                    "y": 329,
+                    "direction": 146
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 399,
+                    "y": 256,
+                    "direction": 150
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 1575,
+                    "y": 211,
+                    "direction": 39
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 1204,
+                    "y": 616,
+                    "direction": 2
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1408,
+                    "y": 552,
+                    "direction": 261
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1062,
+                    "y": 379,
+                    "direction": 74
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 927,
+                    "y": 289,
+                    "direction": 327
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 591,
+                    "y": 552,
+                    "direction": 100
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 899,
+                    "y": 359,
+                    "direction": 50
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1256,
+                            "y": 815
+                        },
+                        {
+                            "x": 918,
+                            "y": 657
+                        },
+                        {
+                            "x": 1137,
+                            "y": 497
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1299,
+                            "y": 190
+                        },
+                        {
+                            "x": 1121,
+                            "y": 767
+                        },
+                        {
+                            "x": 1861,
+                            "y": 148
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1886,
+                            "y": 687
+                        },
+                        {
+                            "x": 1693,
+                            "y": 758
+                        },
+                        {
+                            "x": 1569,
+                            "y": 934
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 964,
+                            "y": 551
+                        },
+                        {
+                            "x": 487,
+                            "y": 22
+                        },
+                        {
+                            "x": 1642,
+                            "y": 918
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 507,
+                            "y": 473
+                        },
+                        {
+                            "x": 577,
+                            "y": 672
+                        },
+                        {
+                            "x": 1164,
+                            "y": 886
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 1128,
+                            "y": 133
+                        },
+                        {
+                            "x": 762,
+                            "y": 99
+                        },
+                        {
+                            "x": 868,
+                            "y": 352
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 680,
+                            "y": 640
+                        },
+                        {
+                            "x": 1150,
+                            "y": 146
+                        },
+                        {
+                            "x": 531,
+                            "y": 440
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 457,
+                            "y": 775
+                        },
+                        {
+                            "x": 749,
+                            "y": 751
+                        },
+                        {
+                            "x": 1593,
+                            "y": 236
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 705,
+                            "y": 549
+                        },
+                        {
+                            "x": 1888,
+                            "y": 154
+                        },
+                        {
+                            "x": 559,
+                            "y": 312
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1278,
+                            "y": 734
+                        },
+                        {
+                            "x": 1271,
+                            "y": 252
+                        },
+                        {
+                            "x": 874,
+                            "y": 255
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 761,
+                            "y": 497
+                        },
+                        {
+                            "x": 579,
+                            "y": 952
+                        },
+                        {
+                            "x": 1378,
+                            "y": 448
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1260,
+                            "y": 971
+                        },
+                        {
+                            "x": 1860,
+                            "y": 461
+                        },
+                        {
+                            "x": 1858,
+                            "y": 149
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 1907,
+                            "y": 483
+                        },
+                        {
+                            "x": 1567,
+                            "y": 341
+                        },
+                        {
+                            "x": 747,
+                            "y": 778
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 433,
+                            "y": 157
+                        },
+                        {
+                            "x": 483,
+                            "y": 473
+                        },
+                        {
+                            "x": 1567,
+                            "y": 426
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 798,
+                            "y": 887
+                        },
+                        {
+                            "x": 1721,
+                            "y": 23
+                        },
+                        {
+                            "x": 607,
+                            "y": 260
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 1198,
+                            "y": 314
+                        },
+                        {
+                            "x": 1205,
+                            "y": 221
+                        },
+                        {
+                            "x": 517,
+                            "y": 376
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1712,
+                            "y": 910
+                        },
+                        {
+                            "x": 1698,
+                            "y": 136
+                        },
+                        {
+                            "x": 870,
+                            "y": 381
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 19,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1620,
+                    "y": 703,
+                    "direction": 286
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1582,
+                    "y": 439,
+                    "direction": 118
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1659,
+                    "y": 419,
+                    "direction": 261
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 851,
+                    "y": 543,
+                    "direction": 94
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1044,
+                    "y": 801,
+                    "direction": 224
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1630,
+                    "y": 369,
+                    "direction": 322
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1886,
+                    "y": 478,
+                    "direction": 191
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 799,
+                    "y": 745,
+                    "direction": 5
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1462,
+                    "y": 720,
+                    "direction": 6
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1315,
+                            "y": 577
+                        },
+                        {
+                            "x": 394,
+                            "y": 252
+                        },
+                        {
+                            "x": 366,
+                            "y": 367
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1048,
+                            "y": 778
+                        },
+                        {
+                            "x": 391,
+                            "y": 748
+                        },
+                        {
+                            "x": 1405,
+                            "y": 980
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 980,
+                            "y": 788
+                        },
+                        {
+                            "x": 1004,
+                            "y": 752
+                        },
+                        {
+                            "x": 663,
+                            "y": 782
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1431,
+                            "y": 380
+                        },
+                        {
+                            "x": 1235,
+                            "y": 537
+                        },
+                        {
+                            "x": 852,
+                            "y": 154
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 664,
+                            "y": 681
+                        },
+                        {
+                            "x": 1395,
+                            "y": 720
+                        },
+                        {
+                            "x": 439,
+                            "y": 879
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 870,
+                            "y": 683
+                        },
+                        {
+                            "x": 677,
+                            "y": 505
+                        },
+                        {
+                            "x": 1503,
+                            "y": 389
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1920,
+                            "y": 237
+                        },
+                        {
+                            "x": 1888,
+                            "y": 790
+                        },
+                        {
+                            "x": 1069,
+                            "y": 355
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 462,
+                            "y": 229
+                        },
+                        {
+                            "x": 731,
+                            "y": 734
+                        },
+                        {
+                            "x": 561,
+                            "y": 785
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1134,
+                            "y": 310
+                        },
+                        {
+                            "x": 991,
+                            "y": 452
+                        },
+                        {
+                            "x": 931,
+                            "y": 449
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1523,
+                            "y": 444
+                        },
+                        {
+                            "x": 1365,
+                            "y": 543
+                        },
+                        {
+                            "x": 1489,
+                            "y": 845
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1779,
+                            "y": 514
+                        },
+                        {
+                            "x": 1468,
+                            "y": 101
+                        },
+                        {
+                            "x": 1194,
+                            "y": 584
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 375,
+                            "y": 636
+                        },
+                        {
+                            "x": 949,
+                            "y": 322
+                        },
+                        {
+                            "x": 1884,
+                            "y": 528
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 1763,
+                            "y": 943
+                        },
+                        {
+                            "x": 1469,
+                            "y": 924
+                        },
+                        {
+                            "x": 589,
+                            "y": 483
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 1852,
+                            "y": 659
+                        },
+                        {
+                            "x": 1648,
+                            "y": 513
+                        },
+                        {
+                            "x": 1550,
+                            "y": 828
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 1024,
+                            "y": 876
+                        },
+                        {
+                            "x": 535,
+                            "y": 697
+                        },
+                        {
+                            "x": 1374,
+                            "y": 780
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 639,
+                            "y": 143
+                        },
+                        {
+                            "x": 1772,
+                            "y": 241
+                        },
+                        {
+                            "x": 569,
+                            "y": 901
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1476,
+                            "y": 79
+                        },
+                        {
+                            "x": 1125,
+                            "y": 578
+                        },
+                        {
+                            "x": 1340,
+                            "y": 198
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1938,
+                            "y": 234
+                        },
+                        {
+                            "x": 1787,
+                            "y": 31
+                        },
+                        {
+                            "x": 1251,
+                            "y": 838
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 563,
+                            "y": 29
+                        },
+                        {
+                            "x": 793,
+                            "y": 701
+                        },
+                        {
+                            "x": 1784,
+                            "y": 423
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 21,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "x": 1950,
+                    "y": 50,
+                    "roomTo": "next room",
+                    "toX": 50,
+                    "toY": 450
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 968,
+                    "y": 428,
+                    "direction": 177
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1538,
+                    "y": 851,
+                    "direction": 341
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1142,
+                    "y": 498,
+                    "direction": 105
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1543,
+                    "y": 119,
+                    "direction": 161
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1130,
+                    "y": 420,
+                    "direction": 316
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1248,
+                    "y": 941,
+                    "direction": 77
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 503,
+                    "y": 440,
+                    "direction": 229
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1723,
+                    "y": 525,
+                    "direction": 126
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1185,
+                    "y": 936,
+                    "direction": 94
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1787,
+                    "y": 698,
+                    "direction": 64
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1253,
+                    "y": 95,
+                    "direction": 325
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1352,
+                    "y": 753,
+                    "direction": 356
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1148,
+                    "y": 621,
+                    "direction": 39
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 200,
+                    "maxSpeed": 1,
+                    "x": 592,
+                    "y": 393,
+                    "direction": 317
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 657,
+                            "y": 692
+                        },
+                        {
+                            "x": 872,
+                            "y": 895
+                        },
+                        {
+                            "x": 566,
+                            "y": 881
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1741,
+                            "y": 393
+                        },
+                        {
+                            "x": 1565,
+                            "y": 275
+                        },
+                        {
+                            "x": 1004,
+                            "y": 974
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1611,
+                            "y": 178
+                        },
+                        {
+                            "x": 708,
+                            "y": 107
+                        },
+                        {
+                            "x": 1013,
+                            "y": 705
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1585,
+                            "y": 356
+                        },
+                        {
+                            "x": 483,
+                            "y": 176
+                        },
+                        {
+                            "x": 1658,
+                            "y": 458
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 1571,
+                            "y": 748
+                        },
+                        {
+                            "x": 725,
+                            "y": 231
+                        },
+                        {
+                            "x": 1716,
+                            "y": 540
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 1112,
+                            "y": 455
+                        },
+                        {
+                            "x": 414,
+                            "y": 600
+                        },
+                        {
+                            "x": 1339,
+                            "y": 176
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 897,
+                            "y": 27
+                        },
+                        {
+                            "x": 1910,
+                            "y": 268
+                        },
+                        {
+                            "x": 1397,
+                            "y": 907
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 791,
+                            "y": 223
+                        },
+                        {
+                            "x": 407,
+                            "y": 114
+                        },
+                        {
+                            "x": 1747,
+                            "y": 577
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 552,
+                            "y": 738
+                        },
+                        {
+                            "x": 1912,
+                            "y": 530
+                        },
+                        {
+                            "x": 847,
+                            "y": 160
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 754,
+                            "y": 80
+                        },
+                        {
+                            "x": 1824,
+                            "y": 129
+                        },
+                        {
+                            "x": 1109,
+                            "y": 264
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 550,
+                            "y": 861
+                        },
+                        {
+                            "x": 511,
+                            "y": 609
+                        },
+                        {
+                            "x": 1026,
+                            "y": 649
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1103,
+                            "y": 626
+                        },
+                        {
+                            "x": 672,
+                            "y": 237
+                        },
+                        {
+                            "x": 1752,
+                            "y": 884
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 908,
+                            "y": 502
+                        },
+                        {
+                            "x": 468,
+                            "y": 937
+                        },
+                        {
+                            "x": 1534,
+                            "y": 734
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 773,
+                            "y": 184
+                        },
+                        {
+                            "x": 1196,
+                            "y": 42
+                        },
+                        {
+                            "x": 941,
+                            "y": 534
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 1292,
+                            "y": 438
+                        },
+                        {
+                            "x": 873,
+                            "y": 316
+                        },
+                        {
+                            "x": 1704,
+                            "y": 351
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 1753,
+                            "y": 743
+                        },
+                        {
+                            "x": 1187,
+                            "y": 187
+                        },
+                        {
+                            "x": 1622,
+                            "y": 895
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1869,
+                            "y": 143
+                        },
+                        {
+                            "x": 1396,
+                            "y": 815
+                        },
+                        {
+                            "x": 1761,
+                            "y": 735
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1685,
+                            "y": 149
+                        },
+                        {
+                            "x": 1827,
+                            "y": 201
+                        },
+                        {
+                            "x": 1903,
+                            "y": 437
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 1893,
+                            "y": 419
+                        },
+                        {
+                            "x": 1843,
+                            "y": 179
+                        },
+                        {
+                            "x": 899,
+                            "y": 807
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 1741,
+                            "y": 196
+                        },
+                        {
+                            "x": 890,
+                            "y": 802
+                        },
+                        {
+                            "x": 680,
+                            "y": 425
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 1283,
+                            "y": 262
+                        },
+                        {
+                            "x": 1666,
+                            "y": 387
+                        },
+                        {
+                            "x": 1619,
+                            "y": 366
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 20,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1571,
+                    "y": 712,
+                    "direction": 282
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 411,
+                    "y": 765,
+                    "direction": 256
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1347,
+                    "y": 883,
+                    "direction": 335
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1614,
+                    "y": 699,
+                    "direction": 286
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1824,
+                    "y": 37,
+                    "direction": 192
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2254,
+                    "y": 145,
+                    "direction": 260
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1833,
+                    "y": 933,
+                    "direction": 17
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2619,
+                    "y": 908,
+                    "direction": 179
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1540,
+                    "y": 421,
+                    "direction": 147
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 3235,
+                    "y": 880,
+                    "direction": 308
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1482,
+                    "y": 183,
+                    "direction": 51
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1902,
+                    "y": 662,
+                    "direction": 316
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1785,
+                            "y": 732
+                        },
+                        {
+                            "x": 2681,
+                            "y": 571
+                        },
+                        {
+                            "x": 1687,
+                            "y": 272
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 830,
+                            "y": 712
+                        },
+                        {
+                            "x": 1027,
+                            "y": 126
+                        },
+                        {
+                            "x": 2010,
+                            "y": 175
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1561,
+                            "y": 801
+                        },
+                        {
+                            "x": 1435,
+                            "y": 183
+                        },
+                        {
+                            "x": 2595,
+                            "y": 664
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 2381,
+                            "y": 519
+                        },
+                        {
+                            "x": 2409,
+                            "y": 596
+                        },
+                        {
+                            "x": 533,
+                            "y": 102
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 2775,
+                            "y": 528
+                        },
+                        {
+                            "x": 2735,
+                            "y": 601
+                        },
+                        {
+                            "x": 623,
+                            "y": 599
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 1300,
+                            "y": 802
+                        },
+                        {
+                            "x": 1548,
+                            "y": 928
+                        },
+                        {
+                            "x": 1374,
+                            "y": 385
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1949,
+                            "y": 209
+                        },
+                        {
+                            "x": 1934,
+                            "y": 509
+                        },
+                        {
+                            "x": 3320,
+                            "y": 708
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 449,
+                            "y": 626
+                        },
+                        {
+                            "x": 1673,
+                            "y": 311
+                        },
+                        {
+                            "x": 817,
+                            "y": 74
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 2622,
+                            "y": 611
+                        },
+                        {
+                            "x": 2245,
+                            "y": 600
+                        },
+                        {
+                            "x": 2244,
+                            "y": 828
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 2709,
+                            "y": 180
+                        },
+                        {
+                            "x": 1138,
+                            "y": 163
+                        },
+                        {
+                            "x": 1475,
+                            "y": 695
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1817,
+                            "y": 44
+                        },
+                        {
+                            "x": 1171,
+                            "y": 231
+                        },
+                        {
+                            "x": 912,
+                            "y": 625
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 3272,
+                            "y": 581
+                        },
+                        {
+                            "x": 1107,
+                            "y": 613
+                        },
+                        {
+                            "x": 3112,
+                            "y": 530
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 987,
+                            "y": 683
+                        },
+                        {
+                            "x": 3213,
+                            "y": 843
+                        },
+                        {
+                            "x": 2370,
+                            "y": 686
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2743,
+                            "y": 971
+                        },
+                        {
+                            "x": 868,
+                            "y": 734
+                        },
+                        {
+                            "x": 2668,
+                            "y": 740
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 2993,
+                            "y": 328
+                        },
+                        {
+                            "x": 3048,
+                            "y": 887
+                        },
+                        {
+                            "x": 2190,
+                            "y": 842
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 2583,
+                            "y": 824
+                        },
+                        {
+                            "x": 2880,
+                            "y": 550
+                        },
+                        {
+                            "x": 2905,
+                            "y": 39
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1226,
+                            "y": 914
+                        },
+                        {
+                            "x": 1592,
+                            "y": 895
+                        },
+                        {
+                            "x": 2547,
+                            "y": 788
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1331,
+                            "y": 605
+                        },
+                        {
+                            "x": 2797,
+                            "y": 672
+                        },
+                        {
+                            "x": 2998,
+                            "y": 279
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 2778,
+                            "y": 847
+                        },
+                        {
+                            "x": 3265,
+                            "y": 344
+                        },
+                        {
+                            "x": 1367,
+                            "y": 620
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 2562,
+                            "y": 378
+                        },
+                        {
+                            "x": 1267,
+                            "y": 467
+                        },
+                        {
+                            "x": 2384,
+                            "y": 827
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 25,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 605,
+                    "y": 777,
+                    "direction": 284
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 3142,
+                    "y": 571,
+                    "direction": 175
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 851,
+                    "y": 550,
+                    "direction": 155
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 961,
+                    "y": 377,
+                    "direction": 136
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 2540,
+                    "y": 127,
+                    "direction": 263
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 2484,
+                    "y": 471,
+                    "direction": 88
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 946,
+                    "y": 893,
+                    "direction": 45
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2630,
+                    "y": 255,
+                    "direction": 77
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1496,
+                    "y": 713,
+                    "direction": 289
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2388,
+                    "y": 761,
+                    "direction": 1
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1944,
+                    "y": 397,
+                    "direction": 356
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1779,
+                    "y": 135,
+                    "direction": 81
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 765,
+                    "y": 489,
+                    "direction": 283
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1909,
+                    "y": 743,
+                    "direction": 258
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 788,
+                    "y": 390,
+                    "direction": 38
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 2881,
+                            "y": 209
+                        },
+                        {
+                            "x": 3007,
+                            "y": 607
+                        },
+                        {
+                            "x": 2795,
+                            "y": 907
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 966,
+                            "y": 495
+                        },
+                        {
+                            "x": 2452,
+                            "y": 510
+                        },
+                        {
+                            "x": 371,
+                            "y": 938
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 2970,
+                            "y": 607
+                        },
+                        {
+                            "x": 1749,
+                            "y": 217
+                        },
+                        {
+                            "x": 2695,
+                            "y": 729
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 3201,
+                            "y": 717
+                        },
+                        {
+                            "x": 1961,
+                            "y": 175
+                        },
+                        {
+                            "x": 1016,
+                            "y": 384
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 3056,
+                            "y": 171
+                        },
+                        {
+                            "x": 466,
+                            "y": 169
+                        },
+                        {
+                            "x": 1598,
+                            "y": 291
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 2050,
+                            "y": 321
+                        },
+                        {
+                            "x": 1253,
+                            "y": 713
+                        },
+                        {
+                            "x": 2810,
+                            "y": 210
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1148,
+                            "y": 864
+                        },
+                        {
+                            "x": 2507,
+                            "y": 77
+                        },
+                        {
+                            "x": 2933,
+                            "y": 94
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 2277,
+                            "y": 506
+                        },
+                        {
+                            "x": 3129,
+                            "y": 474
+                        },
+                        {
+                            "x": 2554,
+                            "y": 424
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1702,
+                            "y": 432
+                        },
+                        {
+                            "x": 1888,
+                            "y": 890
+                        },
+                        {
+                            "x": 878,
+                            "y": 897
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 2347,
+                            "y": 45
+                        },
+                        {
+                            "x": 1702,
+                            "y": 261
+                        },
+                        {
+                            "x": 2602,
+                            "y": 859
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 2396,
+                            "y": 142
+                        },
+                        {
+                            "x": 2896,
+                            "y": 886
+                        },
+                        {
+                            "x": 2388,
+                            "y": 969
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1397,
+                            "y": 879
+                        },
+                        {
+                            "x": 1806,
+                            "y": 43
+                        },
+                        {
+                            "x": 1160,
+                            "y": 584
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 2133,
+                            "y": 202
+                        },
+                        {
+                            "x": 1907,
+                            "y": 242
+                        },
+                        {
+                            "x": 1962,
+                            "y": 91
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 1357,
+                            "y": 29
+                        },
+                        {
+                            "x": 2599,
+                            "y": 954
+                        },
+                        {
+                            "x": 1281,
+                            "y": 318
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 1398,
+                            "y": 819
+                        },
+                        {
+                            "x": 1935,
+                            "y": 125
+                        },
+                        {
+                            "x": 1411,
+                            "y": 382
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 2615,
+                            "y": 828
+                        },
+                        {
+                            "x": 1679,
+                            "y": 42
+                        },
+                        {
+                            "x": 2210,
+                            "y": 436
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1297,
+                            "y": 463
+                        },
+                        {
+                            "x": 1308,
+                            "y": 373
+                        },
+                        {
+                            "x": 3311,
+                            "y": 137
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 2272,
+                            "y": 495
+                        },
+                        {
+                            "x": 2694,
+                            "y": 113
+                        },
+                        {
+                            "x": 2743,
+                            "y": 844
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 1975,
+                            "y": 298
+                        },
+                        {
+                            "x": 1270,
+                            "y": 827
+                        },
+                        {
+                            "x": 2322,
+                            "y": 523
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 2201,
+                            "y": 387
+                        },
+                        {
+                            "x": 886,
+                            "y": 958
+                        },
+                        {
+                            "x": 1987,
+                            "y": 707
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 3190,
+                            "y": 986
+                        },
+                        {
+                            "x": 916,
+                            "y": 271
+                        },
+                        {
+                            "x": 2573,
+                            "y": 950
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "positions": [
+                        {
+                            "x": 2061,
+                            "y": 283
+                        },
+                        {
+                            "x": 2292,
+                            "y": 481
+                        },
+                        {
+                            "x": 2652,
+                            "y": 434
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "positions": [
+                        {
+                            "x": 3109,
+                            "y": 452
+                        },
+                        {
+                            "x": 2868,
+                            "y": 562
+                        },
+                        {
+                            "x": 1620,
+                            "y": 387
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "positions": [
+                        {
+                            "x": 2090,
+                            "y": 688
+                        },
+                        {
+                            "x": 1627,
+                            "y": 874
+                        },
+                        {
+                            "x": 779,
+                            "y": 43
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "positions": [
+                        {
+                            "x": 3106,
+                            "y": 348
+                        },
+                        {
+                            "x": 1059,
+                            "y": 400
+                        },
+                        {
+                            "x": 2276,
+                            "y": 91
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 40,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 716,
+                    "y": 636,
+                    "direction": 313
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 828,
+                    "y": 943,
+                    "direction": 335
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1831,
+                    "y": 231,
+                    "direction": 93
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 608,
+                    "y": 926,
+                    "direction": 349
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 441,
+                    "y": 76,
+                    "direction": 57
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 847,
+                    "y": 228,
+                    "direction": 298
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 2166,
+                    "y": 794,
+                    "direction": 230
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1238,
+                    "y": 768,
+                    "direction": 53
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 2213,
+                    "y": 390,
+                    "direction": 296
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1951,
+                    "y": 667,
+                    "direction": 219
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1797,
+                    "y": 149,
+                    "direction": 142
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2477,
+                    "y": 85,
+                    "direction": 94
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2868,
+                    "y": 893,
+                    "direction": 254
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 753,
+                    "y": 196,
+                    "direction": 238
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1195,
+                    "y": 878,
+                    "direction": 93
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2955,
+                    "y": 867,
+                    "direction": 212
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1463,
+                    "y": 183,
+                    "direction": 274
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 3077,
+                    "y": 785,
+                    "direction": 289
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 813,
+                    "y": 833,
+                    "direction": 274
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1196,
+                    "y": 355,
+                    "direction": 226
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 667,
+                    "y": 520,
+                    "direction": 246
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 2371,
+                    "y": 344,
+                    "direction": 240
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1955,
+                    "y": 613,
+                    "direction": 226
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 3091,
+                    "y": 875,
+                    "direction": 317
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 426,
+                            "y": 527
+                        },
+                        {
+                            "x": 2736,
+                            "y": 98
+                        },
+                        {
+                            "x": 2241,
+                            "y": 235
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1955,
+                            "y": 765
+                        },
+                        {
+                            "x": 3248,
+                            "y": 737
+                        },
+                        {
+                            "x": 1236,
+                            "y": 550
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1817,
+                            "y": 803
+                        },
+                        {
+                            "x": 2889,
+                            "y": 172
+                        },
+                        {
+                            "x": 864,
+                            "y": 202
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1804,
+                            "y": 534
+                        },
+                        {
+                            "x": 1020,
+                            "y": 187
+                        },
+                        {
+                            "x": 2344,
+                            "y": 128
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 3090,
+                            "y": 37
+                        },
+                        {
+                            "x": 1457,
+                            "y": 98
+                        },
+                        {
+                            "x": 435,
+                            "y": 467
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 1193,
+                            "y": 31
+                        },
+                        {
+                            "x": 1432,
+                            "y": 92
+                        },
+                        {
+                            "x": 1173,
+                            "y": 365
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 2116,
+                            "y": 37
+                        },
+                        {
+                            "x": 1881,
+                            "y": 726
+                        },
+                        {
+                            "x": 2991,
+                            "y": 947
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 1598,
+                            "y": 888
+                        },
+                        {
+                            "x": 2280,
+                            "y": 172
+                        },
+                        {
+                            "x": 3175,
+                            "y": 582
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 2777,
+                            "y": 53
+                        },
+                        {
+                            "x": 1547,
+                            "y": 656
+                        },
+                        {
+                            "x": 3055,
+                            "y": 547
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 600,
+                            "y": 870
+                        },
+                        {
+                            "x": 2572,
+                            "y": 680
+                        },
+                        {
+                            "x": 1518,
+                            "y": 544
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 2038,
+                            "y": 228
+                        },
+                        {
+                            "x": 712,
+                            "y": 883
+                        },
+                        {
+                            "x": 2719,
+                            "y": 662
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 3130,
+                            "y": 637
+                        },
+                        {
+                            "x": 1221,
+                            "y": 899
+                        },
+                        {
+                            "x": 3111,
+                            "y": 884
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 1286,
+                            "y": 266
+                        },
+                        {
+                            "x": 1592,
+                            "y": 683
+                        },
+                        {
+                            "x": 368,
+                            "y": 345
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2110,
+                            "y": 668
+                        },
+                        {
+                            "x": 2364,
+                            "y": 980
+                        },
+                        {
+                            "x": 1552,
+                            "y": 620
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 1932,
+                            "y": 857
+                        },
+                        {
+                            "x": 799,
+                            "y": 386
+                        },
+                        {
+                            "x": 1978,
+                            "y": 981
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 2937,
+                            "y": 669
+                        },
+                        {
+                            "x": 1444,
+                            "y": 369
+                        },
+                        {
+                            "x": 3237,
+                            "y": 534
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1855,
+                            "y": 926
+                        },
+                        {
+                            "x": 2961,
+                            "y": 409
+                        },
+                        {
+                            "x": 511,
+                            "y": 449
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1897,
+                            "y": 242
+                        },
+                        {
+                            "x": 1300,
+                            "y": 709
+                        },
+                        {
+                            "x": 2950,
+                            "y": 763
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 1816,
+                            "y": 364
+                        },
+                        {
+                            "x": 543,
+                            "y": 870
+                        },
+                        {
+                            "x": 1354,
+                            "y": 693
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 3110,
+                            "y": 802
+                        },
+                        {
+                            "x": 980,
+                            "y": 188
+                        },
+                        {
+                            "x": 2504,
+                            "y": 35
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 3134,
+                            "y": 442
+                        },
+                        {
+                            "x": 802,
+                            "y": 516
+                        },
+                        {
+                            "x": 1538,
+                            "y": 718
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "positions": [
+                        {
+                            "x": 3023,
+                            "y": 349
+                        },
+                        {
+                            "x": 3147,
+                            "y": 164
+                        },
+                        {
+                            "x": 1468,
+                            "y": 948
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "positions": [
+                        {
+                            "x": 1182,
+                            "y": 96
+                        },
+                        {
+                            "x": 2162,
+                            "y": 347
+                        },
+                        {
+                            "x": 1292,
+                            "y": 556
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "positions": [
+                        {
+                            "x": 526,
+                            "y": 111
+                        },
+                        {
+                            "x": 1422,
+                            "y": 767
+                        },
+                        {
+                            "x": 2656,
+                            "y": 41
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "positions": [
+                        {
+                            "x": 3003,
+                            "y": 163
+                        },
+                        {
+                            "x": 3314,
+                            "y": 620
+                        },
+                        {
+                            "x": 1064,
+                            "y": 571
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "positions": [
+                        {
+                            "x": 3235,
+                            "y": 843
+                        },
+                        {
+                            "x": 2753,
+                            "y": 182
+                        },
+                        {
+                            "x": 1126,
+                            "y": 247
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "positions": [
+                        {
+                            "x": 416,
+                            "y": 582
+                        },
+                        {
+                            "x": 1525,
+                            "y": 576
+                        },
+                        {
+                            "x": 2263,
+                            "y": 365
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "positions": [
+                        {
+                            "x": 518,
+                            "y": 351
+                        },
+                        {
+                            "x": 622,
+                            "y": 610
+                        },
+                        {
+                            "x": 786,
+                            "y": 736
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "positions": [
+                        {
+                            "x": 808,
+                            "y": 546
+                        },
+                        {
+                            "x": 413,
+                            "y": 475
+                        },
+                        {
+                            "x": 1898,
+                            "y": 151
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "positions": [
+                        {
+                            "x": 2637,
+                            "y": 359
+                        },
+                        {
+                            "x": 1138,
+                            "y": 658
+                        },
+                        {
+                            "x": 3251,
+                            "y": 690
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "positions": [
+                        {
+                            "x": 693,
+                            "y": 641
+                        },
+                        {
+                            "x": 1389,
+                            "y": 695
+                        },
+                        {
+                            "x": 3268,
+                            "y": 300
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "positions": [
+                        {
+                            "x": 2226,
+                            "y": 452
+                        },
+                        {
+                            "x": 1145,
+                            "y": 737
+                        },
+                        {
+                            "x": 1688,
+                            "y": 667
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "positions": [
+                        {
+                            "x": 3124,
+                            "y": 289
+                        },
+                        {
+                            "x": 1370,
+                            "y": 983
+                        },
+                        {
+                            "x": 1970,
+                            "y": 491
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "positions": [
+                        {
+                            "x": 825,
+                            "y": 398
+                        },
+                        {
+                            "x": 3226,
+                            "y": 480
+                        },
+                        {
+                            "x": 819,
+                            "y": 611
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "positions": [
+                        {
+                            "x": 3291,
+                            "y": 294
+                        },
+                        {
+                            "x": 549,
+                            "y": 595
+                        },
+                        {
+                            "x": 2631,
+                            "y": 137
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "positions": [
+                        {
+                            "x": 1354,
+                            "y": 378
+                        },
+                        {
+                            "x": 1280,
+                            "y": 291
+                        },
+                        {
+                            "x": 1676,
+                            "y": 453
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "positions": [
+                        {
+                            "x": 2694,
+                            "y": 750
+                        },
+                        {
+                            "x": 2927,
+                            "y": 558
+                        },
+                        {
+                            "x": 1525,
+                            "y": 481
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "positions": [
+                        {
+                            "x": 1652,
+                            "y": 54
+                        },
+                        {
+                            "x": 1687,
+                            "y": 742
+                        },
+                        {
+                            "x": 1738,
+                            "y": 698
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "positions": [
+                        {
+                            "x": 2798,
+                            "y": 115
+                        },
+                        {
+                            "x": 1450,
+                            "y": 140
+                        },
+                        {
+                            "x": 2558,
+                            "y": 560
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "positions": [
+                        {
+                            "x": 2967,
+                            "y": 754
+                        },
+                        {
+                            "x": 2036,
+                            "y": 326
+                        },
+                        {
+                            "x": 2711,
+                            "y": 169
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 60,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "x": 3600,
+                    "y": 500,
+                    "roomTo": "win1",
+                    "toX": 100,
+                    "toY": 100,
+                    "text": "Win"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1205,
+                    "y": 787,
+                    "direction": 358
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 3108,
+                    "y": 678,
+                    "direction": 199
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 3026,
+                    "y": 613,
+                    "direction": 101
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 3131,
+                    "y": 171,
+                    "direction": 195
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1143,
+                    "y": 143,
+                    "direction": 105
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 2375,
+                    "y": 640,
+                    "direction": 224
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1583,
+                    "y": 597,
+                    "direction": 40
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1282,
+                    "y": 688,
+                    "direction": 233
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 966,
+                    "y": 558,
+                    "direction": 59
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 2425,
+                    "y": 763,
+                    "direction": 132
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1097,
+                    "y": 182,
+                    "direction": 68
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 1796,
+                    "y": 608,
+                    "direction": 228
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2817,
+                    "y": 248,
+                    "direction": 97
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2590,
+                    "y": 919,
+                    "direction": 347
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 969,
+                    "y": 305,
+                    "direction": 204
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 717,
+                    "y": 759,
+                    "direction": 233
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1357,
+                    "y": 690,
+                    "direction": 231
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1338,
+                    "y": 205,
+                    "direction": 49
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1875,
+                    "y": 533,
+                    "direction": 110
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1286,
+                    "y": 776,
+                    "direction": 172
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 3273,
+                    "y": 387,
+                    "direction": 193
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2250,
+                    "y": 898,
+                    "direction": 75
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 2596,
+                    "y": 849,
+                    "direction": 6
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 1556,
+                    "y": 231,
+                    "direction": 270
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1139,
+                    "y": 635,
+                    "direction": 215
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 2434,
+                    "y": 136,
+                    "direction": 25
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 1299,
+                    "y": 634,
+                    "direction": 301
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 2,
+                    "x": 2858,
+                    "y": 769,
+                    "direction": 262
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 350,
+                    "maxSpeed": 2,
+                    "x": 2156,
+                    "y": 633,
+                    "direction": 73
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 350,
+                    "maxSpeed": 2,
+                    "x": 2656,
+                    "y": 518,
+                    "direction": 167
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 2175,
+                            "y": 866
+                        },
+                        {
+                            "x": 2539,
+                            "y": 386
+                        },
+                        {
+                            "x": 2273,
+                            "y": 74
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1122,
+                            "y": 712
+                        },
+                        {
+                            "x": 961,
+                            "y": 78
+                        },
+                        {
+                            "x": 2820,
+                            "y": 914
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1897,
+                            "y": 420
+                        },
+                        {
+                            "x": 2461,
+                            "y": 491
+                        },
+                        {
+                            "x": 1608,
+                            "y": 651
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 2274,
+                            "y": 749
+                        },
+                        {
+                            "x": 613,
+                            "y": 58
+                        },
+                        {
+                            "x": 651,
+                            "y": 662
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 2922,
+                            "y": 135
+                        },
+                        {
+                            "x": 2640,
+                            "y": 649
+                        },
+                        {
+                            "x": 465,
+                            "y": 465
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 2002,
+                            "y": 469
+                        },
+                        {
+                            "x": 810,
+                            "y": 932
+                        },
+                        {
+                            "x": 1773,
+                            "y": 814
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 2962,
+                            "y": 204
+                        },
+                        {
+                            "x": 1084,
+                            "y": 627
+                        },
+                        {
+                            "x": 2920,
+                            "y": 31
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 2515,
+                            "y": 440
+                        },
+                        {
+                            "x": 1683,
+                            "y": 882
+                        },
+                        {
+                            "x": 3082,
+                            "y": 926
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1528,
+                            "y": 838
+                        },
+                        {
+                            "x": 572,
+                            "y": 859
+                        },
+                        {
+                            "x": 2775,
+                            "y": 439
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 2626,
+                            "y": 203
+                        },
+                        {
+                            "x": 3282,
+                            "y": 818
+                        },
+                        {
+                            "x": 2559,
+                            "y": 219
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 2492,
+                            "y": 205
+                        },
+                        {
+                            "x": 1058,
+                            "y": 825
+                        },
+                        {
+                            "x": 1870,
+                            "y": 475
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 3264,
+                            "y": 894
+                        },
+                        {
+                            "x": 3219,
+                            "y": 929
+                        },
+                        {
+                            "x": 1476,
+                            "y": 126
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 556,
+                            "y": 904
+                        },
+                        {
+                            "x": 1874,
+                            "y": 206
+                        },
+                        {
+                            "x": 879,
+                            "y": 419
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2792,
+                            "y": 911
+                        },
+                        {
+                            "x": 3038,
+                            "y": 244
+                        },
+                        {
+                            "x": 2194,
+                            "y": 801
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 2753,
+                            "y": 66
+                        },
+                        {
+                            "x": 1402,
+                            "y": 365
+                        },
+                        {
+                            "x": 3205,
+                            "y": 607
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 2605,
+                            "y": 633
+                        },
+                        {
+                            "x": 781,
+                            "y": 29
+                        },
+                        {
+                            "x": 2883,
+                            "y": 882
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1521,
+                            "y": 764
+                        },
+                        {
+                            "x": 2757,
+                            "y": 132
+                        },
+                        {
+                            "x": 3339,
+                            "y": 523
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1218,
+                            "y": 817
+                        },
+                        {
+                            "x": 2673,
+                            "y": 32
+                        },
+                        {
+                            "x": 2040,
+                            "y": 212
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 382,
+                            "y": 576
+                        },
+                        {
+                            "x": 3209,
+                            "y": 80
+                        },
+                        {
+                            "x": 1420,
+                            "y": 230
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 2749,
+                            "y": 614
+                        },
+                        {
+                            "x": 1856,
+                            "y": 481
+                        },
+                        {
+                            "x": 883,
+                            "y": 381
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 735,
+                            "y": 756
+                        },
+                        {
+                            "x": 3186,
+                            "y": 929
+                        },
+                        {
+                            "x": 925,
+                            "y": 943
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "positions": [
+                        {
+                            "x": 949,
+                            "y": 590
+                        },
+                        {
+                            "x": 2245,
+                            "y": 728
+                        },
+                        {
+                            "x": 1043,
+                            "y": 12
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "positions": [
+                        {
+                            "x": 1713,
+                            "y": 108
+                        },
+                        {
+                            "x": 1295,
+                            "y": 246
+                        },
+                        {
+                            "x": 2977,
+                            "y": 634
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "positions": [
+                        {
+                            "x": 585,
+                            "y": 11
+                        },
+                        {
+                            "x": 2226,
+                            "y": 442
+                        },
+                        {
+                            "x": 407,
+                            "y": 109
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "positions": [
+                        {
+                            "x": 3236,
+                            "y": 381
+                        },
+                        {
+                            "x": 1256,
+                            "y": 280
+                        },
+                        {
+                            "x": 2547,
+                            "y": 692
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "positions": [
+                        {
+                            "x": 468,
+                            "y": 460
+                        },
+                        {
+                            "x": 2682,
+                            "y": 982
+                        },
+                        {
+                            "x": 2653,
+                            "y": 487
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "positions": [
+                        {
+                            "x": 3020,
+                            "y": 983
+                        },
+                        {
+                            "x": 2561,
+                            "y": 839
+                        },
+                        {
+                            "x": 1404,
+                            "y": 543
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "positions": [
+                        {
+                            "x": 514,
+                            "y": 244
+                        },
+                        {
+                            "x": 625,
+                            "y": 188
+                        },
+                        {
+                            "x": 1364,
+                            "y": 725
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "positions": [
+                        {
+                            "x": 2373,
+                            "y": 701
+                        },
+                        {
+                            "x": 2491,
+                            "y": 250
+                        },
+                        {
+                            "x": 1254,
+                            "y": 393
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "positions": [
+                        {
+                            "x": 2159,
+                            "y": 704
+                        },
+                        {
+                            "x": 1334,
+                            "y": 129
+                        },
+                        {
+                            "x": 3237,
+                            "y": 361
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "positions": [
+                        {
+                            "x": 1987,
+                            "y": 463
+                        },
+                        {
+                            "x": 825,
+                            "y": 250
+                        },
+                        {
+                            "x": 1522,
+                            "y": 428
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "positions": [
+                        {
+                            "x": 2362,
+                            "y": 731
+                        },
+                        {
+                            "x": 879,
+                            "y": 558
+                        },
+                        {
+                            "x": 557,
+                            "y": 475
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "positions": [
+                        {
+                            "x": 402,
+                            "y": 363
+                        },
+                        {
+                            "x": 3075,
+                            "y": 768
+                        },
+                        {
+                            "x": 1983,
+                            "y": 768
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "positions": [
+                        {
+                            "x": 2275,
+                            "y": 388
+                        },
+                        {
+                            "x": 1996,
+                            "y": 426
+                        },
+                        {
+                            "x": 2794,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "positions": [
+                        {
+                            "x": 1993,
+                            "y": 348
+                        },
+                        {
+                            "x": 3308,
+                            "y": 960
+                        },
+                        {
+                            "x": 1730,
+                            "y": 127
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "positions": [
+                        {
+                            "x": 1263,
+                            "y": 732
+                        },
+                        {
+                            "x": 2407,
+                            "y": 268
+                        },
+                        {
+                            "x": 3280,
+                            "y": 260
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "positions": [
+                        {
+                            "x": 3120,
+                            "y": 163
+                        },
+                        {
+                            "x": 2479,
+                            "y": 312
+                        },
+                        {
+                            "x": 1671,
+                            "y": 284
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "positions": [
+                        {
+                            "x": 2499,
+                            "y": 872
+                        },
+                        {
+                            "x": 3066,
+                            "y": 585
+                        },
+                        {
+                            "x": 3073,
+                            "y": 917
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "positions": [
+                        {
+                            "x": 1663,
+                            "y": 912
+                        },
+                        {
+                            "x": 1535,
+                            "y": 277
+                        },
+                        {
+                            "x": 984,
+                            "y": 428
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "positions": [
+                        {
+                            "x": 951,
+                            "y": 54
+                        },
+                        {
+                            "x": 516,
+                            "y": 855
+                        },
+                        {
+                            "x": 2853,
+                            "y": 892
+                        }
+                    ]
+                },
+                {
+                    "id": 40,
+                    "positions": [
+                        {
+                            "x": 3155,
+                            "y": 615
+                        },
+                        {
+                            "x": 1660,
+                            "y": 530
+                        },
+                        {
+                            "x": 1486,
+                            "y": 731
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "positions": [
+                        {
+                            "x": 1358,
+                            "y": 727
+                        },
+                        {
+                            "x": 1938,
+                            "y": 226
+                        },
+                        {
+                            "x": 3152,
+                            "y": 719
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "positions": [
+                        {
+                            "x": 1568,
+                            "y": 166
+                        },
+                        {
+                            "x": 2939,
+                            "y": 250
+                        },
+                        {
+                            "x": 686,
+                            "y": 593
+                        }
+                    ]
+                },
+                {
+                    "id": 43,
+                    "positions": [
+                        {
+                            "x": 1153,
+                            "y": 14
+                        },
+                        {
+                            "x": 1922,
+                            "y": 967
+                        },
+                        {
+                            "x": 1531,
+                            "y": 600
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "positions": [
+                        {
+                            "x": 970,
+                            "y": 129
+                        },
+                        {
+                            "x": 2416,
+                            "y": 103
+                        },
+                        {
+                            "x": 2218,
+                            "y": 724
+                        }
+                    ]
+                },
+                {
+                    "id": 45,
+                    "positions": [
+                        {
+                            "x": 1735,
+                            "y": 735
+                        },
+                        {
+                            "x": 3106,
+                            "y": 390
+                        },
+                        {
+                            "x": 898,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "positions": [
+                        {
+                            "x": 977,
+                            "y": 726
+                        },
+                        {
+                            "x": 895,
+                            "y": 655
+                        },
+                        {
+                            "x": 2562,
+                            "y": 587
+                        }
+                    ]
+                },
+                {
+                    "id": 47,
+                    "positions": [
+                        {
+                            "x": 1269,
+                            "y": 693
+                        },
+                        {
+                            "x": 1764,
+                            "y": 727
+                        },
+                        {
+                            "x": 2344,
+                            "y": 77
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "positions": [
+                        {
+                            "x": 836,
+                            "y": 854
+                        },
+                        {
+                            "x": 1035,
+                            "y": 561
+                        },
+                        {
+                            "x": 511,
+                            "y": 268
+                        }
+                    ]
+                },
+                {
+                    "id": 49,
+                    "positions": [
+                        {
+                            "x": 2370,
+                            "y": 400
+                        },
+                        {
+                            "x": 2130,
+                            "y": 824
+                        },
+                        {
+                            "x": 2379,
+                            "y": 741
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "positions": [
+                        {
+                            "x": 3199,
+                            "y": 684
+                        },
+                        {
+                            "x": 3143,
+                            "y": 856
+                        },
+                        {
+                            "x": 522,
+                            "y": 450
+                        }
+                    ]
+                },
+                {
+                    "id": 51,
+                    "positions": [
+                        {
+                            "x": 2085,
+                            "y": 775
+                        },
+                        {
+                            "x": 977,
+                            "y": 136
+                        },
+                        {
+                            "x": 1918,
+                            "y": 377
+                        }
+                    ]
+                },
+                {
+                    "id": 52,
+                    "positions": [
+                        {
+                            "x": 2217,
+                            "y": 526
+                        },
+                        {
+                            "x": 2873,
+                            "y": 338
+                        },
+                        {
+                            "x": 1216,
+                            "y": 690
+                        }
+                    ]
+                },
+                {
+                    "id": 53,
+                    "positions": [
+                        {
+                            "x": 2911,
+                            "y": 863
+                        },
+                        {
+                            "x": 1342,
+                            "y": 219
+                        },
+                        {
+                            "x": 1301,
+                            "y": 124
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "positions": [
+                        {
+                            "x": 2177,
+                            "y": 494
+                        },
+                        {
+                            "x": 1422,
+                            "y": 62
+                        },
+                        {
+                            "x": 1584,
+                            "y": 590
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "positions": [
+                        {
+                            "x": 2081,
+                            "y": 54
+                        },
+                        {
+                            "x": 2932,
+                            "y": 616
+                        },
+                        {
+                            "x": 798,
+                            "y": 982
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "positions": [
+                        {
+                            "x": 1170,
+                            "y": 654
+                        },
+                        {
+                            "x": 2296,
+                            "y": 429
+                        },
+                        {
+                            "x": 761,
+                            "y": 816
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "positions": [
+                        {
+                            "x": 3110,
+                            "y": 726
+                        },
+                        {
+                            "x": 1506,
+                            "y": 610
+                        },
+                        {
+                            "x": 1141,
+                            "y": 72
+                        }
+                    ]
+                },
+                {
+                    "id": 58,
+                    "positions": [
+                        {
+                            "x": 1203,
+                            "y": 740
+                        },
+                        {
+                            "x": 2150,
+                            "y": 457
+                        },
+                        {
+                            "x": 777,
+                            "y": 110
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "positions": [
+                        {
+                            "x": 3047,
+                            "y": 146
+                        },
+                        {
+                            "x": 1374,
+                            "y": 30
+                        },
+                        {
+                            "x": 2364,
+                            "y": 201
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

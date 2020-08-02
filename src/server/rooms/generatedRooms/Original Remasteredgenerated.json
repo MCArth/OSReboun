@@ -1,0 +1,3452 @@
+{
+    "name": "Original Remastered",
+    "officialName": "Original Remastered",
+    "foodRespawnType": "timed",
+    "rooms": [
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 1,
+            "teleportPortals": [
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 823,
+                    "y": 942,
+                    "direction": 246
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 646,
+                            "y": 696
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 1,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 890,
+                    "y": 959,
+                    "direction": 72
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 459,
+                    "y": 721,
+                    "direction": 289
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 536,
+                            "y": 624
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 2,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 4,
+                    "x": 771,
+                    "y": 490,
+                    "direction": 153
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 3,
+                    "x": 632,
+                    "y": 816,
+                    "direction": 359
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 746,
+                            "y": 603
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 587,
+                            "y": 106
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 2,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 570,
+                    "y": 405,
+                    "direction": 91
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 548,
+                    "y": 144,
+                    "direction": 133
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 875,
+                            "y": 659
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 803,
+                            "y": 425
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 3,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 758,
+                    "y": 759,
+                    "direction": 357
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 895,
+                    "y": 896,
+                    "direction": 201
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 794,
+                    "y": 700,
+                    "direction": 125
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 779,
+                            "y": 573
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 680,
+                            "y": 499
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 404,
+                            "y": 610
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 6,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 2,
+                    "x": 442,
+                    "y": 579,
+                    "direction": 204
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 2,
+                    "x": 818,
+                    "y": 840,
+                    "direction": 3
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 25,
+                    "maxSpeed": 2,
+                    "x": 390,
+                    "y": 955,
+                    "direction": 136
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 575,
+                    "y": 824,
+                    "direction": 307
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 646,
+                    "y": 409,
+                    "direction": 320
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 482,
+                            "y": 952
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 408,
+                            "y": 913
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 572,
+                            "y": 830
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 609,
+                            "y": 670
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 919,
+                            "y": 103
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 779,
+                            "y": 157
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 7,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 871,
+                    "y": 942,
+                    "direction": 224
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 688,
+                    "y": 746,
+                    "direction": 213
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 510,
+                    "y": 176,
+                    "direction": 141
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 882,
+                    "y": 111,
+                    "direction": 9
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 793,
+                    "y": 548,
+                    "direction": 318
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 804,
+                    "y": 806,
+                    "direction": 318
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 526,
+                            "y": 320
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 812,
+                            "y": 592
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 661,
+                            "y": 918
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 751,
+                            "y": 903
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 572,
+                            "y": 253
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 899,
+                            "y": 311
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 937,
+                            "y": 938
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 8,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 591,
+                    "y": 640,
+                    "direction": 163
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 405,
+                    "y": 678,
+                    "direction": 253
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 861,
+                    "y": 916,
+                    "direction": 349
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 619,
+                    "y": 347,
+                    "direction": 320
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 546,
+                    "y": 138,
+                    "direction": 256
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 468,
+                    "y": 736,
+                    "direction": 191
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 547,
+                    "y": 409,
+                    "direction": 245
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 808,
+                            "y": 288
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 692,
+                            "y": 628
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 377,
+                            "y": 652
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 841,
+                            "y": 955
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 768,
+                            "y": 551
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 590,
+                            "y": 510
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 798,
+                            "y": 260
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 911,
+                            "y": 132
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 15,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 710,
+                    "y": 149,
+                    "direction": 222
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 762,
+                    "y": 421,
+                    "direction": 24
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 3,
+                    "x": 1363,
+                    "y": 845,
+                    "direction": 43
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 982,
+                    "y": 431,
+                    "direction": 286
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 671,
+                    "y": 896,
+                    "direction": 139
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1190,
+                    "y": 528,
+                    "direction": 315
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1222,
+                    "y": 78,
+                    "direction": 118
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 710,
+                            "y": 681
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 856,
+                            "y": 736
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1403,
+                            "y": 751
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1651,
+                            "y": 562
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 1494,
+                            "y": 277
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 430,
+                            "y": 777
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1524,
+                            "y": 190
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 907,
+                            "y": 246
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1244,
+                            "y": 423
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1915,
+                            "y": 171
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1930,
+                            "y": 618
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 831,
+                            "y": 102
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 1272,
+                            "y": 985
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 364,
+                            "y": 517
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 683,
+                            "y": 629
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 17,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1625,
+                    "y": 60,
+                    "direction": 251
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 919,
+                    "y": 451,
+                    "direction": 258
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 590,
+                    "y": 680,
+                    "direction": 96
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1767,
+                    "y": 640,
+                    "direction": 228
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 492,
+                    "y": 233,
+                    "direction": 77
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 866,
+                    "y": 860,
+                    "direction": 46
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 694,
+                    "y": 493,
+                    "direction": 10
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 954,
+                    "y": 574,
+                    "direction": 143
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 536,
+                            "y": 862
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 834,
+                            "y": 964
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 744,
+                            "y": 185
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1303,
+                            "y": 258
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 737,
+                            "y": 279
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 865,
+                            "y": 291
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1624,
+                            "y": 665
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 1698,
+                            "y": 877
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 398,
+                            "y": 104
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 902,
+                            "y": 446
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1348,
+                            "y": 301
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1843,
+                            "y": 191
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 589,
+                            "y": 477
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 1056,
+                            "y": 909
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 746,
+                            "y": 179
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 1284,
+                            "y": 243
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1397,
+                            "y": 168
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 19,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 703,
+                    "y": 249,
+                    "direction": 81
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1173,
+                    "y": 232,
+                    "direction": 6
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1341,
+                    "y": 300,
+                    "direction": 192
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 1825,
+                    "y": 120,
+                    "direction": 216
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 1695,
+                    "y": 305,
+                    "direction": 271
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 578,
+                    "y": 375,
+                    "direction": 216
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 502,
+                            "y": 266
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 976,
+                            "y": 912
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1502,
+                            "y": 482
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 934,
+                            "y": 147
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 1753,
+                            "y": 826
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 1720,
+                            "y": 843
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1405,
+                            "y": 202
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 1817,
+                            "y": 486
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1150,
+                            "y": 623
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1282,
+                            "y": 298
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 601,
+                            "y": 111
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1336,
+                            "y": 345
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 690,
+                            "y": 26
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 460,
+                            "y": 703
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 784,
+                            "y": 143
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 1059,
+                            "y": 596
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 756,
+                            "y": 314
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1031,
+                            "y": 898
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 1925,
+                            "y": 338
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 21,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "x": 1950,
+                    "y": 50,
+                    "roomTo": "next room",
+                    "toX": 50,
+                    "toY": 450
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 457,
+                    "y": 935,
+                    "direction": 265
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 500,
+                    "y": 236,
+                    "direction": 317
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 452,
+                    "y": 606,
+                    "direction": 32
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 1125,
+                    "y": 464,
+                    "direction": 257
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 200,
+                    "maxSpeed": 1,
+                    "x": 1655,
+                    "y": 762,
+                    "direction": 84
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1336,
+                            "y": 254
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1732,
+                            "y": 180
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1601,
+                            "y": 624
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 848,
+                            "y": 437
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 800,
+                            "y": 248
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 505,
+                            "y": 808
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1564,
+                            "y": 71
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 1884,
+                            "y": 530
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 427,
+                            "y": 558
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1330,
+                            "y": 756
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1244,
+                            "y": 317
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1833,
+                            "y": 815
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 1883,
+                            "y": 409
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 1419,
+                            "y": 550
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 1103,
+                            "y": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 1473,
+                            "y": 394
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1903,
+                            "y": 885
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1703,
+                            "y": 953
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 939,
+                            "y": 851
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 1729,
+                            "y": 213
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 670,
+                            "y": 874
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 20,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1867,
+                    "y": 474,
+                    "direction": 150
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1709,
+                    "y": 301,
+                    "direction": 98
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1912,
+                    "y": 710,
+                    "direction": 218
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2865,
+                    "y": 756,
+                    "direction": 80
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 1143,
+                    "y": 77,
+                    "direction": 238
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 2003,
+                    "y": 334,
+                    "direction": 320
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 1,
+                    "x": 2449,
+                    "y": 713,
+                    "direction": 236
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 2681,
+                    "y": 652,
+                    "direction": 102
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 2604,
+                            "y": 376
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 2968,
+                            "y": 515
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 3185,
+                            "y": 734
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 3084,
+                            "y": 522
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 2854,
+                            "y": 95
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 2246,
+                            "y": 533
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 2909,
+                            "y": 266
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 1127,
+                            "y": 814
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 3321,
+                            "y": 885
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1392,
+                            "y": 652
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1799,
+                            "y": 486
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 969,
+                            "y": 946
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 3067,
+                            "y": 168
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2979,
+                            "y": 301
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 2140,
+                            "y": 511
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 771,
+                            "y": 393
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 858,
+                            "y": 212
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 447,
+                            "y": 474
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 2435,
+                            "y": 569
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 1727,
+                            "y": 608
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 25,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1345,
+                    "y": 856,
+                    "direction": 200
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2846,
+                    "y": 320,
+                    "direction": 292
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2489,
+                    "y": 345,
+                    "direction": 258
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 952,
+                    "y": 479,
+                    "direction": 87
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 3135,
+                    "y": 856,
+                    "direction": 33
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1722,
+                    "y": 539,
+                    "direction": 326
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 2872,
+                    "y": 697,
+                    "direction": 87
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 2895,
+                    "y": 626,
+                    "direction": 61
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 585,
+                    "y": 199,
+                    "direction": 166
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1667,
+                    "y": 359,
+                    "direction": 56
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 827,
+                    "y": 860,
+                    "direction": 48
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 1617,
+                    "y": 660,
+                    "direction": 328
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1132,
+                            "y": 507
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 1166,
+                            "y": 612
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 422,
+                            "y": 269
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1024,
+                            "y": 424
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 1611,
+                            "y": 815
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 3202,
+                            "y": 440
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 1576,
+                            "y": 49
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 532,
+                            "y": 300
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1245,
+                            "y": 840
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1426,
+                            "y": 482
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 847,
+                            "y": 296
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 1880,
+                            "y": 461
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 865,
+                            "y": 17
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2053,
+                            "y": 967
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 515,
+                            "y": 820
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 438,
+                            "y": 126
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 2442,
+                            "y": 304
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1303,
+                            "y": 225
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 985,
+                            "y": 785
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 771,
+                            "y": 592
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 1344,
+                            "y": 102
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "positions": [
+                        {
+                            "x": 1809,
+                            "y": 937
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "positions": [
+                        {
+                            "x": 2146,
+                            "y": 978
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "positions": [
+                        {
+                            "x": 870,
+                            "y": 930
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "positions": [
+                        {
+                            "x": 1659,
+                            "y": 156
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 40,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1482,
+                    "y": 525,
+                    "direction": 241
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 3010,
+                    "y": 365,
+                    "direction": 297
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 3283,
+                    "y": 217,
+                    "direction": 114
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2916,
+                    "y": 535,
+                    "direction": 335
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1306,
+                    "y": 726,
+                    "direction": 52
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1335,
+                    "y": 528,
+                    "direction": 126
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 468,
+                    "y": 175,
+                    "direction": 30
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 3118,
+                    "y": 70,
+                    "direction": 254
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2098,
+                    "y": 303,
+                    "direction": 9
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2456,
+                    "y": 733,
+                    "direction": 84
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 851,
+                    "y": 796,
+                    "direction": 346
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 655,
+                    "y": 571,
+                    "direction": 4
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 955,
+                    "y": 849,
+                    "direction": 347
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 2691,
+                    "y": 428,
+                    "direction": 279
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1118,
+                    "y": 598,
+                    "direction": 153
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1303,
+                    "y": 602,
+                    "direction": 316
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 3213,
+                    "y": 325,
+                    "direction": 57
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 486,
+                    "y": 556,
+                    "direction": 12
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 721,
+                            "y": 712
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 2430,
+                            "y": 483
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1699,
+                            "y": 918
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 1109,
+                            "y": 88
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 623,
+                            "y": 79
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 727,
+                            "y": 689
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 611,
+                            "y": 412
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 3106,
+                            "y": 190
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1701,
+                            "y": 546
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 458,
+                            "y": 358
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1531,
+                            "y": 269
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 2043,
+                            "y": 377
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 2010,
+                            "y": 681
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2463,
+                            "y": 43
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 1468,
+                            "y": 928
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 3121,
+                            "y": 17
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 1156,
+                            "y": 55
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 1616,
+                            "y": 537
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 3126,
+                            "y": 393
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 1805,
+                            "y": 476
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 1426,
+                            "y": 337
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "positions": [
+                        {
+                            "x": 1948,
+                            "y": 716
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "positions": [
+                        {
+                            "x": 3270,
+                            "y": 676
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "positions": [
+                        {
+                            "x": 3031,
+                            "y": 929
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "positions": [
+                        {
+                            "x": 561,
+                            "y": 603
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "positions": [
+                        {
+                            "x": 385,
+                            "y": 823
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "positions": [
+                        {
+                            "x": 2813,
+                            "y": 194
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "positions": [
+                        {
+                            "x": 2778,
+                            "y": 734
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "positions": [
+                        {
+                            "x": 889,
+                            "y": 336
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "positions": [
+                        {
+                            "x": 2081,
+                            "y": 700
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "positions": [
+                        {
+                            "x": 2853,
+                            "y": 623
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "positions": [
+                        {
+                            "x": 2222,
+                            "y": 135
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "positions": [
+                        {
+                            "x": 1490,
+                            "y": 599
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "positions": [
+                        {
+                            "x": 1301,
+                            "y": 381
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "positions": [
+                        {
+                            "x": 1410,
+                            "y": 49
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "positions": [
+                        {
+                            "x": 997,
+                            "y": 840
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "positions": [
+                        {
+                            "x": 2423,
+                            "y": 687
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "positions": [
+                        {
+                            "x": 2016,
+                            "y": 498
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "positions": [
+                        {
+                            "x": 2027,
+                            "y": 824
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "positions": [
+                        {
+                            "x": 2248,
+                            "y": 934
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "playZone": {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 60,
+            "teleportPortals": [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "x": 3600,
+                    "y": 500,
+                    "roomTo": "win1",
+                    "toX": 100,
+                    "toY": 100,
+                    "text": "Win"
+                }
+            ],
+            "enemySetups": [
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2781,
+                    "y": 361,
+                    "direction": 178
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1196,
+                    "y": 678,
+                    "direction": 37
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2997,
+                    "y": 526,
+                    "direction": 99
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2645,
+                    "y": 712,
+                    "direction": 320
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 926,
+                    "y": 680,
+                    "direction": 26
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 669,
+                    "y": 165,
+                    "direction": 106
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2125,
+                    "y": 469,
+                    "direction": 53
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 1392,
+                    "y": 793,
+                    "direction": 21
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2797,
+                    "y": 802,
+                    "direction": 144
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 30,
+                    "maxSpeed": 2,
+                    "x": 2054,
+                    "y": 963,
+                    "direction": 190
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1531,
+                    "y": 236,
+                    "direction": 229
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1660,
+                    "y": 554,
+                    "direction": 18
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1943,
+                    "y": 289,
+                    "direction": 152
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 3084,
+                    "y": 726,
+                    "direction": 275
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1438,
+                    "y": 513,
+                    "direction": 292
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1851,
+                    "y": 221,
+                    "direction": 181
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1895,
+                    "y": 71,
+                    "direction": 264
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 60,
+                    "maxSpeed": 2,
+                    "x": 1415,
+                    "y": 540,
+                    "direction": 129
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 2943,
+                    "y": 776,
+                    "direction": 327
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 1056,
+                    "y": 322,
+                    "direction": 140
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 120,
+                    "maxSpeed": 1,
+                    "x": 1147,
+                    "y": 700,
+                    "direction": 193
+                },
+                {
+                    "type": "StandardEnemy",
+                    "radius": 350,
+                    "maxSpeed": 1,
+                    "x": 1551,
+                    "y": 569,
+                    "direction": 119
+                }
+            ],
+            "foodSetups": [
+                {
+                    "id": 0,
+                    "positions": [
+                        {
+                            "x": 1423,
+                            "y": 853
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "positions": [
+                        {
+                            "x": 2230,
+                            "y": 355
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "positions": [
+                        {
+                            "x": 1328,
+                            "y": 974
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "positions": [
+                        {
+                            "x": 850,
+                            "y": 820
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "positions": [
+                        {
+                            "x": 2579,
+                            "y": 266
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "positions": [
+                        {
+                            "x": 1997,
+                            "y": 632
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "positions": [
+                        {
+                            "x": 3285,
+                            "y": 956
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "positions": [
+                        {
+                            "x": 1024,
+                            "y": 864
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "positions": [
+                        {
+                            "x": 1279,
+                            "y": 674
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "positions": [
+                        {
+                            "x": 1317,
+                            "y": 714
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "positions": [
+                        {
+                            "x": 1162,
+                            "y": 636
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "positions": [
+                        {
+                            "x": 424,
+                            "y": 819
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "positions": [
+                        {
+                            "x": 580,
+                            "y": 457
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "positions": [
+                        {
+                            "x": 2617,
+                            "y": 707
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "positions": [
+                        {
+                            "x": 2666,
+                            "y": 937
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "positions": [
+                        {
+                            "x": 3108,
+                            "y": 161
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "positions": [
+                        {
+                            "x": 2058,
+                            "y": 849
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "positions": [
+                        {
+                            "x": 640,
+                            "y": 13
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "positions": [
+                        {
+                            "x": 2570,
+                            "y": 779
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "positions": [
+                        {
+                            "x": 2692,
+                            "y": 164
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "positions": [
+                        {
+                            "x": 2757,
+                            "y": 519
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "positions": [
+                        {
+                            "x": 2993,
+                            "y": 411
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "positions": [
+                        {
+                            "x": 2061,
+                            "y": 68
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "positions": [
+                        {
+                            "x": 649,
+                            "y": 883
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "positions": [
+                        {
+                            "x": 3248,
+                            "y": 504
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "positions": [
+                        {
+                            "x": 2830,
+                            "y": 194
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "positions": [
+                        {
+                            "x": 1827,
+                            "y": 135
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "positions": [
+                        {
+                            "x": 2631,
+                            "y": 977
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "positions": [
+                        {
+                            "x": 2747,
+                            "y": 436
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "positions": [
+                        {
+                            "x": 1780,
+                            "y": 480
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "positions": [
+                        {
+                            "x": 431,
+                            "y": 873
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "positions": [
+                        {
+                            "x": 488,
+                            "y": 327
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "positions": [
+                        {
+                            "x": 2055,
+                            "y": 391
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "positions": [
+                        {
+                            "x": 1290,
+                            "y": 662
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "positions": [
+                        {
+                            "x": 361,
+                            "y": 135
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "positions": [
+                        {
+                            "x": 1595,
+                            "y": 821
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "positions": [
+                        {
+                            "x": 1764,
+                            "y": 253
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "positions": [
+                        {
+                            "x": 390,
+                            "y": 236
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "positions": [
+                        {
+                            "x": 2845,
+                            "y": 64
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "positions": [
+                        {
+                            "x": 3236,
+                            "y": 413
+                        }
+                    ]
+                },
+                {
+                    "id": 40,
+                    "positions": [
+                        {
+                            "x": 1067,
+                            "y": 147
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "positions": [
+                        {
+                            "x": 1748,
+                            "y": 611
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "positions": [
+                        {
+                            "x": 1525,
+                            "y": 932
+                        }
+                    ]
+                },
+                {
+                    "id": 43,
+                    "positions": [
+                        {
+                            "x": 1932,
+                            "y": 470
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "positions": [
+                        {
+                            "x": 1612,
+                            "y": 800
+                        }
+                    ]
+                },
+                {
+                    "id": 45,
+                    "positions": [
+                        {
+                            "x": 1543,
+                            "y": 631
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "positions": [
+                        {
+                            "x": 554,
+                            "y": 520
+                        }
+                    ]
+                },
+                {
+                    "id": 47,
+                    "positions": [
+                        {
+                            "x": 512,
+                            "y": 944
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "positions": [
+                        {
+                            "x": 2179,
+                            "y": 57
+                        }
+                    ]
+                },
+                {
+                    "id": 49,
+                    "positions": [
+                        {
+                            "x": 2605,
+                            "y": 655
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "positions": [
+                        {
+                            "x": 1467,
+                            "y": 309
+                        }
+                    ]
+                },
+                {
+                    "id": 51,
+                    "positions": [
+                        {
+                            "x": 3285,
+                            "y": 113
+                        }
+                    ]
+                },
+                {
+                    "id": 52,
+                    "positions": [
+                        {
+                            "x": 792,
+                            "y": 939
+                        }
+                    ]
+                },
+                {
+                    "id": 53,
+                    "positions": [
+                        {
+                            "x": 1470,
+                            "y": 10
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "positions": [
+                        {
+                            "x": 1819,
+                            "y": 666
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "positions": [
+                        {
+                            "x": 391,
+                            "y": 340
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "positions": [
+                        {
+                            "x": 2826,
+                            "y": 955
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "positions": [
+                        {
+                            "x": 1751,
+                            "y": 431
+                        }
+                    ]
+                },
+                {
+                    "id": 58,
+                    "positions": [
+                        {
+                            "x": 1584,
+                            "y": 500
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "positions": [
+                        {
+                            "x": 3109,
+                            "y": 872
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

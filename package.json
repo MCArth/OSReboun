@@ -1,0 +1,21 @@
+{
+    "name": "fightr",
+    "version": "1.0.0",
+    "description": "A multiplayer game of skill and reactions",
+    "main": "server/server.js",
+    "dependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "browserify": "^16.5.1",
+        "express": "^4.17.1",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-cli": "^2.2.0",
+        "gulp-uglify": "^3.0.2",
+        "level": "^6.0.1",
+        "simple-quadtree": "^0.1.3",
+        "socket.io": "^2.3.0",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    }
+}

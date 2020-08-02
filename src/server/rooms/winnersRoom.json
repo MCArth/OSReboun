@@ -1,0 +1,15 @@
+{
+    "name": "win",
+    "rooms":
+    [
+        {
+            "winnerRoom": true,
+            "height": 500,
+            "width": 500,
+            "teleportPortals":
+            [
+            ],
+            "enemySetups": []
+        }
+    ]
+}

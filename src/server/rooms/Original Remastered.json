@@ -1,0 +1,685 @@
+{
+    "name": "Original Remastered",
+    "officialName": "Original Remastered",
+    "foodRespawnType": "timed",
+    "rooms":
+    [
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 1,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 1,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 1
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 3
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 2,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 4
+                    },
+                    "count": 1
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 3
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 2,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 1
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 3,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 2
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 6,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 25,
+                        "maxSpeed": 2
+                    },
+                    "count": 3
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 1
+                    },
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 7,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 3
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 600,
+                "height": 1000
+            },
+            "numFood": 8,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 4
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 15,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 3
+                    },
+                    "count": 3
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 17,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 4
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 1
+                    },
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 19,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 3
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 1
+                    },
+                    "count": 2
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 120,
+                        "maxSpeed": 1
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 1600,
+                "height": 1000
+            },
+            "numFood": 21,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "x": 1950,
+                    "y": 50,
+                    "roomTo": "next room",
+                    "toX": 50,
+                    "toY": 450
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 2
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 1
+                    },
+                    "count": 1
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 120,
+                        "maxSpeed": 1
+                    },
+                    "count": 1
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 200,
+                        "maxSpeed": 1
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 20,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 4
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 1
+                    },
+                    "count": 3
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 120,
+                        "maxSpeed": 1
+                    },
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 25,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 5
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 5
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 120,
+                        "maxSpeed": 1
+                    },
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 40,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "roomTo": "next room"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 10
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 6
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 120,
+                        "maxSpeed": 1
+                    },
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "playZone": 
+            {
+                "width": 3000,
+                "height": 1000
+            },
+            "numFood": 60,
+            "teleportPortals": 
+            [
+                {
+                    "roomTo": "previous room"
+                },
+                {
+                    "x": 3600,
+                    "y": 500,
+                    "roomTo": "win1",
+                    "toX": 100,
+                    "toY": 100,
+                    "text": "Win"
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 30,
+                        "maxSpeed": 2
+                    },
+                    "count": 10
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 60,
+                        "maxSpeed": 2
+                    },
+                    "count": 8
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 120,
+                        "maxSpeed": 1
+                    },
+                    "count": 3
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 350,
+                        "maxSpeed": 1
+                    },
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

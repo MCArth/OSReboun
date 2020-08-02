@@ -1,0 +1,34 @@
+{
+    "name": "spawn",
+    "rooms": [
+        {
+            "height": 1000,
+            "width": 1000,
+            "playZone": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+            },
+            "numFood": 0,
+            "teleportPortals": [
+                {
+                    "x": 970,
+                    "y": 30,
+                    "roomTo": "hard map1",
+                    "toX": 30,
+                    "toY": 500
+                },
+                {
+                    "x": 500,
+                    "y": 30,
+                    "roomTo": "initial 11",
+                    "toX": 30,
+                    "toY": 500
+                }
+            ],
+            "enemySetups": [],
+            "foodSetups": []
+        }
+    ]
+}

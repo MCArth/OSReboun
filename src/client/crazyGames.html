@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="icon" href="images/ball.png" type="image/png">
+    <audio id="spawn_cell" src="audio/spawn.mp3"></audio>
+    <!-- Meta Properties -->
+    <meta charset="UTF-8">
+    <title>reboun.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <!-- AdinPlay Ads -->
+    <script>
+        var aiptag = aiptag || {};
+        aiptag.cmd = aiptag.cmd || [];
+        aiptag.cmd.display = aiptag.cmd.display || [];
+        aiptag.cmd.player = aiptag.cmd.player || [];
+        aiptag.gdprShowConsentTool = true;
+    </script>
+    <script async src="//api.adinplay.com/libs/aiptag/pub/RBN/reboun.io/tag.min.js"></script>
+
+    <!-- Game Analytics -->
+    <script>
+        (function(w,d,a,m){var s='script';var g='GameAnalytics';w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)},a=d.createElement(s),m=d.getElementsByTagName(s)[0];a.async=1;a.src='https://download.gameanalytics.com/js/GameAnalytics-4.0.10.min.js';m.parentNode.insertBefore(a,m)})(window,document);
+    </script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Audio -->
+</head>
+<body class="hideoverflow">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+    <div style="font-family:'Ubuntu'">&nbsp;</div>
+    <div id="preroll"></div>
+    <div id="container">
+        <div id="gameAreaWrapper">
+            <div id="status"><span class="title">Position</span></div>
+            <!-- <div class="chatbox" id="chatbox"> -->
+                <!-- <ul id="chatList" class="chat-list"></ul> -->
+                <!-- <input id="chatInput" type="text" class="chat-input" placeholder="Chat here..." maxlength="35" /> -->
+                <span id="chatInput"></span>
+                <span id="chatList"></span>
+            <!-- </div> -->
+            <div id="mobile">
+            </div>
+            <div id="canvasDiv">
+                <canvas tabindex="1" id="cvs" style="display: block;"></canvas>
+            </div>
+        </div>
+        <div id="startMenuWrapper">
+            <div id="startMenu">
+                <h1 id="homeScreenName">reboun.io</h1>
+                <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" maxlength="25" />
+                <b class="input-error">Nick must be alphanumeric characters only!</b>
+                <br />
+                <button id="startButton">Play</button>
+                <button id="bestTimeButton">Best Times</button>                
+            </div>
+            <a href="https://discord.gg/ETdRbrU" target="_blank"><div id="discordButton"></div></a>
+            <!-- <a id="iogamesspace" href="https://iogames.space" target="_blank">iogames.space</a> -->
+            <!-- <a id="iogamesspace" href="partners.html" target="_blank">Partners</a> -->
+            <a id="changelog" href="changelog.txt" target="_blank">Changelog</a>
+            <div style="position: relative">
+                <p id="swapServer" class="center-horizontal">
+                    <span id="currServer">You are connected to: </span>
+                    <a id="otherServer">Connect to </a>
+                </p>
+            </div>
+        </div>
+        <div id="queueWrapper" style="display: none;">
+            <div id="queue">
+                <h1>Waiting for Players</h1>
+                <h2 id="numPlayers">0 of 10</h2>
+                <h2>Vote for a gamemode</h2>
+                <div class="vote">
+                    <button id="soloButton">FFA</button>
+                    <p id="soloCount">0</p>
+                </div>
+                <div class="vote">
+                    <button id="teamButton">Duo</button>
+                    <p id="teamCount">0</p>
+                </div>
+                <div class="vote">
+                    <button id="co-opButton">Co-op</button>
+                    <p id="co-opCount">0</p>
+                </div>
+
+                <h2>Vote for a map</h2>
+                <div class="voteMap">
+                    <button id="map0Button"></button>
+                    <p id="map0Count">0</p>
+                </div>
+                <div class="voteMap">
+                    <button id="map1Button"></button>
+                    <p id="map1Count">0</p>
+                </div>
+                <div class="voteMap">
+                    <button id="map2Button"></button>
+                    <p id="map2Count">0</p>
+                </div>
+                <br>
+                <button id="startNowButton" class="large" style="display: block">Start Now 0/0</button>
+                <p id="gameStartingIn">Game automatically starting in 0:59</p>
+                <div id='reboun-io_300x250'>
+                    <script type='text/javascript'>
+                        aiptag.cmd.display.push(function() { aipDisplayTag.display('reboun-io_300x250'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div id="gameOverWrapper" style="display: none">
+            <div id="gameOver">
+                <h1 id="gameOverTitle"></h1>
+                <h3 id="positionTitle"></h3>
+                <h2 id="position"></h2>
+                <button id="playAgainButton">Play Again</button>
+                <button id="homeScreenButton">Home Screen</button>
+                <div id='reboun-io_300x250_2'>
+                    <script type='text/javascript'>
+                        aiptag.cmd.display.push(function() { aipDisplayTag.display('reboun-io_300x250_2'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div id="leaderboardBackground" style="display: none;">
+            <div id="leaderboard" class="myCenter">
+                <h1 id="leaderboardTitle" class="center-horizontal">Best Times</h1>
+                <div id="leaderboardContent" class="tabs background unselectable list">
+                    <table id="leaderboardMapTabs" class="center-horizontal">
+                        <tbody>
+                            <tr>
+                                <td id="lbMap1" class="selectedMapLBButton">Original Map</td>
+                                <td id="lbMap2" class="mapLeaderboardName">Original Remastered</td>
+                                <td id="lbMap3" class="mapLeaderboardName">Original but Long</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="leaderboardTable" class="list center-horizontal">
+                        <tbody>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>⌛</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button id="leaderboardExit" class="center-horizontal small">Exit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="bin/src/clientjs/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+{
+    "name": "hard map",
+    "rooms":
+    [
+        {
+            "height": 1000,
+            "width": 3000,
+            "playZone": 
+            {
+                "x": 200,
+                "y": 0,
+                "width": 2600,
+                "height": 1000
+            },
+            "numFood": 30,
+            "teleportPortals": 
+            [
+                {
+                    "x": 30,
+                    "y": 30,
+                    "roomTo": "spawn1",
+                    "toX": 500,
+                    "toY": 900
+                },
+                {
+                    "x": 2950,
+                    "y": 50,
+                    "roomTo": "hard map2",
+                    "toX": 50,
+                    "toY": 50
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 50,
+                        "maxSpeed": 10
+                    },
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "height": 800,
+            "width": 5000,
+            "playZone": 
+            {
+                "x": 200,
+                "y": 0,
+                "width": 4600,
+                "height": 800
+            },
+            "numFood": 40,
+            "teleportPortals":
+            [
+                {
+                    "x": 50,
+                    "y": 450,
+                    "roomTo": "hard map1",
+                    "toX": 2950,
+                    "toY": 450
+                },
+                {
+                    "x": 4950,
+                    "y": 450,
+                    "roomTo": "hard map3",
+                    "toX": 50,
+                    "toY": 500
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 50,
+                        "maxSpeed": 10
+                    },
+                    "count": 5
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 100,
+                        "maxSpeed": 8
+                    },
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "height": 1000,
+            "width": 5000,
+            "playZone": 
+            {
+                "x": 200,
+                "y": 0,
+                "width": 4600,
+                "height": 1000
+            },
+            "numFood": 50,
+            "teleportPortals": 
+            [
+                {
+                    "x": 30,
+                    "y": 30,
+                    "roomTo": "hard map2",
+                    "toX": 4950,
+                    "toY": 50
+                },
+                {
+                    "x": 4950,
+                    "y": 50,
+                    "roomTo": "win1",
+                    "toX": 50,
+                    "toY": 450
+                }
+            ],
+            "enemySetups":
+            [
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 50,
+                        "maxSpeed": 12
+                    },
+                    "count": 5
+                },
+                {
+                    "config":
+                    {
+                        "type": "StandardEnemy",
+                        "radius": 100,
+                        "maxSpeed": 8
+                    },
+                    "count": 20
+                }
+            ]
+        }
+    ]
+}

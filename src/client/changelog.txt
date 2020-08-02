@@ -1,0 +1,10 @@
+# Changelog
+# [0.0.4] - 11/05/2020
+ - Added different maps
+# [0.0.3] - 06/05/2020
+ - Added NA server
+# [0.0.2] - 05/05/2020
+ - Added client side smoothing and server prediction
+ - Play area resizes based on screen dimensions (playable on phone)
+# [0.0.1] - 01/05/2020
+ - Initial Release
