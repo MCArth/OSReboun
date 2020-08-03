@@ -22,13 +22,13 @@ exports.submitNewLeaderboardTime = (player, game) => {
         return;
     }
     let time_taken_nano = player.finishTime-game.gameStartTime;
-    if (process.env.DB_SERVER === "true") {
+    if (process.env.DB_SERVER === "true" || process.env.DB_SERVER === undefined) {
         ttDBHandler.submitNewLeaderboardTime(game.map, player.name, time_taken_nano);
     }
     else {
         let submitSocket = ioClient.connect('https://reboun.io');
         submitSocket.on('connect', () => {
-            submitSocket.emit('submitNewLeaderboardTime', adminPassword, game.map, player.name, time_taken_nano);
+            submitSocket.emit('newLBTime', adminPassword, game.map, player.name, time_taken_nano);
             submitSocket.disconnect();
         });
     }
